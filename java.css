@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(13, 136, 148);
+}
+.container{
+    margin-top: 50px;
+    
+   
+}
+
+table{
+    width: 300px;
+    height: 300px;
+    
+}
+h3{
+   font-size: x-large;
+   background-color: rgb(255, 255, 255);
+   padding: 30px;
+    color: rgb(1, 1, 1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.userinput{
+
+    width: 330px;
+    height: 50px;
+    background-color: rgb(249, 249, 249);
+    border-radius: 5px;
+   margin-top: 30px;
+   margin-bottom: 20px;
+    border: none;
+    font-size: medium;
+    text-indent: 5px;
+    color: rgb(0, 0, 0);
+}
+
+table tr button{
+    width: 80px;
+    height: 70px;
+    background-color: transparent;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+border: none;
+font-size: medium;
+}
+
+table button:hover{
+    background-color: #3e3d3d;
+    color: white;
+}

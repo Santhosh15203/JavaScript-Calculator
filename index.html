@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>JavaScript | Calculator</title>
+   <script src="java.js" defer></script>
+   <link rel="stylesheet" href="java.css">
+</head>
+<body>
+    <center>
+    <div class="container">
+        <h3>JavaScript Calculator</h3>
+        <input class="userinput" type="text" id="input" placeholder="0" readonly>
+        <table>
+            <tr>
+                <td><button onclick="clearInput()">AC</button></td>
+                <td><button onclick="mathFun('%')">%</button></td>
+                <td><button onclick="deleteLast()">⌫</button></td>
+                <td><button onclick="mathFun('/')">/</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="mathFun('7')">7</button></td>
+                <td><button onclick="mathFun('8')">8</button></td>
+                <td><button onclick="mathFun('9')">9</button></td>
+                <td><button onclick="mathFun('*')">×</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="mathFun('4')">4</button></td>
+                <td><button onclick="mathFun('5')">5</button></td>
+                <td><button onclick="mathFun('6')">6</button></td>
+                <td><button onclick="mathFun('-')">−</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="mathFun('1')">1</button></td>
+                <td><button onclick="mathFun('2')">2</button></td>
+                <td><button onclick="mathFun('3')">3</button></td>
+                <td><button onclick="mathFun('+')">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="mathFun('00')">00</button></td>
+                <td><button onclick="mathFun('0')">0</button></td>
+                <td><button onclick="mathFun('.')">.</button></td>
+                <td><button onclick="calculate()">=</button></td>
+            </tr>
+        </table>
+    </div>
+    </center>
+</body>
+</html>
